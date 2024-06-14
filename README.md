@@ -1,7 +1,49 @@
-# Vue 3 + Vite
+# To-do Timetable
+## The Power of Practicing
+I learn 
+![screenshot](./public/ro-capture.jpg)
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
 
-## Recommended IDE Setup
+# To-Do Timetable App 📅✅
 
-- [VS Code](https://code.visualstudio.com/) + [Vue - Official](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (previously Volar) and disable Vetur
+## Description
+
+J'ai appris les bases de Vue.js 🌱 ainsi que la gestion des états avec ce framework en développant cette petite application 📱 qui combine une to-do app 📝 et un emploi du temps 📅. Une idée un peu hors norme 💡, mais l'objectif a été atteint avec succès 🎯.
+
+## Technologies utilisées
+
+- Vue.js 🟩
+- Pinia 🍍
+
+## Fonctionnalités
+
+- Ajouter, modifier et supprimer des tâches 📝
+- Planifier des événements dans un emploi du temps 📅
+- Garder une trace de votre productivité ✅
+
+## Capture d'écran
+
+Voici une capture d'écran de l'application :
+
+![Capture d'écran de l'application](./src/assets/imgs/capture.png)
+
+## You want to test it?
+Check [this link](https://to-do-timetable.netlify.app/)
+
+## Or to install it?
+
+1. Clonez le repository :
+   ```bash
+   git clone https://github.com/USERNAME/to-do-timetable-app.git
+
+2. Accédez au répertoire du projet :
+   ```bash
+   cd to-do-timetable-app
+
+3. Installez les dépendances :
+   ```bash
+   npm install
+
+3. Démarrez l'application :
+   ```bash
+   npm run dev
