@@ -1,0 +1,120 @@
+
+.popup-container{
+    display: none;
+    &.active{
+        display: flex;
+    }
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9;
+    align-items: center;
+    justify-content: center;
+    animation: fadeOpacity 0.4s ease;
+    @keyframes fadeOpacity {
+        from{
+            opacity: 0;
+        }
+        to{
+            opacity: 1;
+        }
+    }
+    &::after{
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: grey;
+        opacity: 0.4;
+        z-index: 9;
+    }
+    .popup-inner{
+        z-index: 999;
+        background: #fff;
+        padding: 32px 24px;
+        border-radius: 8px;
+        position: relative;
+        .close-btn{
+            position: absolute;
+            top: -34px;
+            right: -34px; 
+            background: #fff;
+            border-radius: 50%;
+            width: 32px;
+            aspect-ratio: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: 0.4s ease;
+            &:hover{
+                cursor: pointer;
+                transform: rotate(90deg);
+            }
+        }
+        h1{
+            font-size: 24px;
+            border-bottom: 1px solid grey;
+            padding-bottom: 8px;
+        }
+    }
+    form{
+        .input-text{
+            width: 400px;
+            padding: 10px 8px;
+            border: 1px solid grey;
+            outline: none;
+            border-radius: 4px;
+        }
+        .form-control{
+            display: flex;
+            flex-direction: column;
+            margin-top: 16px;
+            display: flex;
+            flex-direction: column;
+            row-gap: 8px;
+        }
+        .label{
+            color: gray;
+            font-style: italic;
+            font-size: 12px;
+        }
+        .btn-control{
+            margin-top: 16px;
+            display: flex;
+            column-gap: 8px;
+            p{
+                color: #fff;
+                background: rgba(229, 0, 0, 0.829);
+                padding: 12px 16px;
+                border-radius: 4px;
+                transition: 0.4s ease;
+                cursor: pointer;
+                &:hover{
+                    background: rgb(229, 0, 0);
+                }
+            }
+            button{
+                padding: 12px 16px;
+                border: none;
+                border-radius: 4px;
+                background: rgba(102, 167, 167, 0.8);
+                color: #fff;
+                cursor: pointer;
+                transition: 0.4s ease;
+                width: 100%;
+                &:hover{
+                    background-color: rgb(102, 167, 167);
+                }
+            }
+        }
+        .radio-control{
+            display: flex;
+            column-gap: 8px;
+            &> input, &> label{
+                cursor: pointer;
+            }
+        }
+    }
+}

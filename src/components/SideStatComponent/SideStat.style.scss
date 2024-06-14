@@ -1,0 +1,35 @@
+.side-card{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 16px;
+    justify-content: center;
+    &>div {
+        &:nth-child(1){
+            background-color: rgba(0, 0, 255, 0.2);
+        }
+        &:nth-child(2){
+            background-color: rgba(255, 221, 0, 0.4);
+        }
+        &:nth-child(3){
+            background-color: rgba(0, 128, 0, 0.3);
+        }
+        width: 140px;
+        margin-bottom: 16px;
+        border-radius: 18px;
+        &> div{
+            padding: 32px 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            p{
+                font-size: 24px;
+                font-weight: 800;
+                color: #000;
+            }
+            span{
+                margin-left: 8px;
+            }
+        }
+    }
+}

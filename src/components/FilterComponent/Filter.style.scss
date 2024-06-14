@@ -1,0 +1,17 @@
+form{
+    display: flex;
+    column-gap: 16px;
+    align-items: center;
+    &>div{
+        label{
+            cursor: pointer;
+            margin-left: 4px;
+        }
+        input{
+            cursor: pointer;
+        }
+    }
+    &>span{
+        font-weight: 600;
+    }
+}

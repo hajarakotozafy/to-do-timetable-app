@@ -1,0 +1,8 @@
+.timetable-container{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    .column{
+        width: 160px;
+    }
+}
