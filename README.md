@@ -1,34 +1,36 @@
-# To-do Timetable
-## The Power of Practicing
-I learn 
-![screenshot](./public/ro-capture.jpg)
-
-
 # To-Do Timetable App 📅✅
 
 ## Description
 
-J'ai appris les bases de Vue.js 🌱 ainsi que la gestion des états avec ce framework en développant cette petite application 📱 qui combine une to-do app 📝 et un emploi du temps 📅. Une idée un peu hors norme 💡, mais l'objectif a été atteint avec succès 🎯.
+I learned the basics of Vue.js 🌱 and state management with this framework by developing this small application 📱 that combines a to-do app 📝 and a timetable 📅. It's a slightly unconventional idea 💡, but the goal was successfully achieved 🎯.
 
-## Technologies utilisées
+## Technologies Used
 
 - Vue.js 🟩
 - Pinia 🍍
 
-## Fonctionnalités
+## Features
 
-- Ajouter, modifier et supprimer des tâches 📝
-- Planifier des événements dans un emploi du temps 📅
-- Garder une trace de votre productivité ✅
+- Add, edit, and delete tasks 📝
+- Schedule events in a timetable 📅
+- Keep track of your productivity ✅
 
-## Capture d'écran
+## Screenshots
 
-Voici une capture d'écran de l'application :
+Here's a screenshot of the application:
 
-![Capture d'écran de l'application](./src/assets/imgs/capture.png)
+![Screenshot of the application](./src/assets/imgs/screenshot.png)
 
 ## You want to test it?
-Check [this link](https://to-do-timetable.netlify.app/)
+
+Check out the live demo [here](https://to-do-timetable.netlify.app/).
+
+## Or to install it?
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/USERNAME/to-do-timetable-app.git
+
 
 ## Or to install it?
 
@@ -36,14 +38,14 @@ Check [this link](https://to-do-timetable.netlify.app/)
    ```bash
    git clone https://github.com/USERNAME/to-do-timetable-app.git
 
-2. Accédez au répertoire du projet :
+2. Navigate to the project directory: :
    ```bash
    cd to-do-timetable-app
 
-3. Installez les dépendances :
+3. Install dependencies:
    ```bash
    npm install
 
-3. Démarrez l'application :
+3. Start the application:
    ```bash
    npm run dev
