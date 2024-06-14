@@ -27,11 +27,11 @@ Check out the live demo [here](https://to-do-timetable.netlify.app/).
 
 ## Or to install it?
 
-1. Clonez le repository :
+1. Clone the repository:
    ```bash
    git clone https://github.com/hajarakotozafy/to-do-timetable-app.git
 
-2. Navigate to the project directory: :
+2. Navigate to the project directory:
    ```bash
    cd to-do-timetable-app
 
