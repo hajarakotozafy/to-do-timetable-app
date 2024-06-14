@@ -19,7 +19,7 @@ I learned the basics of Vue.js 🌱 and state management with this framework by 
 
 Here's a screenshot of the application:
 
-![Screenshot of the application](./src/assets/imgs/screenshot.png)
+![Screenshot of the application](./src/assets/imgs/capture.png)
 
 ## You want to test it?
 
@@ -27,16 +27,9 @@ Check out the live demo [here](https://to-do-timetable.netlify.app/).
 
 ## Or to install it?
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/USERNAME/to-do-timetable-app.git
-
-
-## Or to install it?
-
 1. Clonez le repository :
    ```bash
-   git clone https://github.com/USERNAME/to-do-timetable-app.git
+   git clone https://github.com/hajarakotozafy/to-do-timetable-app.git
 
 2. Navigate to the project directory: :
    ```bash
